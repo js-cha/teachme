@@ -27,5 +27,220 @@ echo description here
 echo "test something"
 echo description here
 
+# pwd
+echo "pwd"
+
+# the command's usage examples
+echo "pwd Examples"
+# example 1
+echo "To print current working directory"
+echo "$ pwd" 
+echo "/Users/Neverland/documents/test"
+
+# example 2
+echo "$ x=$(pwd)"
+echo "$ The current working directory : $x"
+echo "The current working directory : /Users/Neverland/documents/test"
+
+
+#cd
+# the command's usage examples
+echo "cd Examples"
+# example 1
+echo "go up to the parent of the current directory"
+echo "chenfengs-MBP:~ Neverland$ cd .."
+echo "chenfengs-MBP:Users Neverland$ "
+# example 2
+echo "go to your home directory, then into your Documents directory"
+echo "$ cd ~/Documents"
+echo "chenfengs-MBP:Documents Neverland$ "
+
+#ls
+echo "ls Examples"
+# example 1
+echo "Display All Information About Files/Directories"
+echo "$ ls -l"
+echo "total 48"
+echo "-rw-r--r--   1 Neverland  staff     0 Mar  6 21:19 1.txt"
+# example 2
+
+#clear
+echo "clear Examples"
+# example 1
+echo "$ clear"
+echo "chenfengs-MBP:Documents Neverland$"
+echo "[It is the only line remaining]"
+
+#more
+echo "more Examples"
+# example 1
+echo "$ more 1.txt"
+echo "### Command Line for Developers, Part 2"
+echo "..."
+
+# example 2
+echo "$ ls | more"
+echo "List the contents of the current directory with ls, using more to display the list one screen at a time."
+echo "1.txt"
+echo "2.txt"
+
+#mkdir
+
+echo "mkdir Examples"
+# example 1
+echo "$ mkdir test1"
+echo "$ ls | more"
+echo "..."
+echo "test1"
+echo "..."
+# example 2
+echo "$ mkdir -p /Users/Neverland/Documents/test1"
+echo "$ ls | more"
+echo "..."
+echo "test1"
+echo "..."
+
+#touch
+
+echo "touch Examples"
+echo "$ touch test1.txt"
+echo "..."
+echo "test1.txt"
+echo "..."
+
+#mv
+
+echo "mv Examples"
+# example 1
+echo "mv test1.txt /Users/Neverland/"
+echo "remove test1.txt to /Users/Neverland/"
+
+# example 2
+echo "mv foo.txt bar.txt"
+echo "rename foo.txt to bar.txt"
+
+#rm
+echo "rm Examples"
+# example 1
+echo "$ rm test1.txt"
+echo "test1.txt is removed from crrent path"
+# example 2
+echo "$rm /Users/Neverland/Documents/test1"
+echo "test1.txt is removed from /Users/Neverland/Documents/"
+
+#rmdir
+echo "rmdir Examples"
+echo "$ rmdir test1"
+echo "Directory test1 is removed from crrent path"
+
+#man
+echo "man Examples"
+# example 1
+echo "man man"
+echo "View the manual page for the man command."
+# example 2
+echo "View the manual page for man, with no hyphenated words or justified lines."
+echo "$ man --nh --nj man"
+
+#find
+echo "find Examples"
+# example 1
+echo "$ find . -name "*.txt"  "
+echo "Find all .txt files wildcard"
+# example 2
+echo "$ find . -mtime 1"
+echo "Find files by modification time is last 24 hours"
+
+#grep
+echo "grep Examples"
+# example 1
+echo "$ grep -w "test" test1.txt"
+echo "Search the file test1.txt for lines containing the word "test"."
+# example 2
+echo "$ grep -cw "test" test1.txt"
+echo "displays a count of how many lines in test1.txt contains "test""
+
+#exit
+echo "exit Examples"
+#example 1
+echo "$ exit"
+echo "logout"
+echo "...copying shared history..."
+echo "...saving history...truncating history files..."
+echo "...completed."
+echo "Deleting expired sessions...none found."
+
+#whoami
+echo "whoami Examples"
+echo "$ whoami"
+echo "Neverland"
+echo "Display crrent User name"
+
+#cp
+echo "cp Examples"
+#example 1
+echo "$ cp 1.txt /Users/Neverland/testfile"
+echo "Copy the 1.txt in the current directory to /Users/Neverland/testfile subdirectory."
+#example 2
+echo "cp -u *.txt /Users/Neverland/testfile"
+echo "Copy all txt files which are not in /Users/Neverland/testfile"
+
+#wc
+echo "wc Examples"
+#example 1
+echo "$ wc mastering_github.md"
+echo "      41     435    3165 mastering_github.md"
+echo "This md file has 41 lines, 435 words, and 3165 characters."
+#example 2
+echo "$ ls -1 | wc -l"
+echo "18"
+echo "This command returns the number of objects in the current directory. "
+
+#tar
+echo "tar Examples"
+#example 1
+echo "$ tar cf archive.tar text1.txt text2.txt"
+echo "create a archive.tar file for text1.txt and text2.txt file"
+#example 2
+echo "$ tar -xvzf archive.tar"
+echo "Extract archive.tar file"
+
+#curl
+echo "curl Examples"
+#example 1
+echo "$ curl http://study.moderndeveloper.com//index.htm > index.htm"
+echo "fetch index.htm file from above link and create the same file in the current directory."
+#example 2
+echo "$ curl --limit-rate 1000B -O http://study.moderndeveloper.com//index.htm"
+echo "Set limit for data transfer to 1000 Bytes/second"
+#fetch
+
+#pipe 
+echo "pipeline command Examples"
+#example 1
+echo "$ ls -al | more"
+echo "total 128"
+echo "drwx------+ 25 Neverland  staff    850 Mar 10 00:25 ."
+echo "..."
+#example 2
+echo "$ lps aux | wc -l"
+echo "289"
+echo "Display how many processes are currently running on your system"
+
+#ping
+echo "ping Examples"
+#example 1
+echo "$ ping google.com"
+echo "PING google.com (172.217.2.14): 56 data bytes"
+echo "64 bytes from 172.217.2.14: icmp_seq=0 ttl=57 time=16.856 ms"
+echo "..."
+#example 2
+echo "$ ping -c 2 google.com"
+echo "PING google.com (172.217.2.14): 56 data bytes"
+echo "64 bytes from 172.217.2.14: icmp_seq=0 ttl=57 time=17.605 ms"
+echo "64 bytes from 172.217.2.14: icmp_seq=1 ttl=57 time=20.568 ms"
+echo "--- google.com ping statistics ---"
+echo "2 packets transmitted, 2 packets received, 0.0% packet loss"
+echo "round-trip min/avg/max/stddev = 17.605/19.087/20.568/1.482 ms"
 
 exit 0
