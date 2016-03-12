@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the sudo command."
+echo "This is the ssh command."
 
 # The command's name
-echo -e 'sudo'
+echo -e 'ssh'
 
 # the command's description
 echo "description here"
