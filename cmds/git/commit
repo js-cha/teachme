@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git status command."
+echo "This is the git commit command."
 
 # The command's name
-echo -e 'git status'
+echo -e 'git commit'
 
 # the command's description
 echo "description here"
