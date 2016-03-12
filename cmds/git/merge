@@ -11,9 +11,14 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]
+               [-s <strategy>] [-X <strategy-option>] [-S[<keyid>]]
+               [--[no-]rerere-autoupdate] [-m <msg>] [<commit>...]
+       git merge <msg> HEAD <commit>...
+       git merge --abort"
+echo "git merge --no-commit branch3"
+echo -e "\t--no-commit: this option performs the merge without a commit."
+echo -e "\tbranch3: this option is the branch with which the merge will be performed."
 #   ...      etc
 
 echo "------------"
