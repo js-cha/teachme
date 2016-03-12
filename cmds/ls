@@ -5,7 +5,8 @@ echo "This is the ls command."
 echo -e 'ls'
 
 # the command's description
-echo "description here"
+echo "The `ls` command displays an alphabetically ordered list of the files and folders in the current directory and information about those files and folders. 
+When used with any of its many options, the `ls` command can be made to filter and sort the results it displays based on a variety of criteria. "
 
 echo "------------"
 
