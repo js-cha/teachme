@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git log command."
+echo "This is the git fetch command."
 
 # The command's name
-echo -e 'git log'
+echo -e 'git fetch'
 
 # the command's description
 echo "description here"
