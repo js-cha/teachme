@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git rm command."
+echo "This is the git branch command."
 
 # The command's name
-echo -e 'git rm'
+echo -e 'git branch'
 
 # the command's description
 echo "description here"
