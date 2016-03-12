@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "cp main.js main1.js"
+echo "In this example, the cp command is used to make a copy of the main.js file and store it as main1.js "
 
 # example 2
-echo "test something"
-echo description here
+echo "cp ~/pictures/picture-*.jpg ~/picture-backup"
+echo "Here the cp command is used to copy multiple files and folders at once based on a pattern. The command is used to copy all the .jpg files that start with the word 'picture' from the pictures directory into the picture-backup directory."
 
 
 exit 0
