@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "alias ll='ls -l'"
+echo "This command will allow a user to type the characters ll and this would list all files in the directory in long format."
 
 # example 2
-echo "test something"
-echo description here
+echo "alias ..='cd ..'"
+echo "This alias will allow a user to type the character .. and this would change to one directory above the current one."
 
 
 exit 0
