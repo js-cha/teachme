@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "ssh -v"
+echo "This command displays the SSH client currently running and it’s corresponding version number"
 
 # example 2
-echo "test something"
-echo description here
+echo "ssh imanuel@remotehost.com"
+echo "This command connects to the server at remotehost.com with the username imanuel."
 
 
 exit 0
