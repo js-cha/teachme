@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "man ls"
+echo "This command will show the manual page for the ls program, allowing the user to see how the ls program works and how to use it."
 
 # example 2
-echo "test something"
-echo description here
+echo "man 5 passwd"
+echo "The manual page for the passwd command has many sections. This example will begin the man page at section 5. This is useful if the user knows which section of the manual page contains the information they seek. "
 
 
 exit 0
