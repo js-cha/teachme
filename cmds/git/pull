@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git pull origin master"
+echo "This command will fetch all the changes from the origin branch on the remote server and merge these changes with the master branch of the user's local copy."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git pull --edit origin master"
+echo "This command opens up an editor before executing the pull so that a descriptive message can be written about it."
 
 
 exit 0
