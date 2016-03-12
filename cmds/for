@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the ssh command."
+echo "This is the for command."
 
 # The command's name
-echo -e 'ssh'
+echo -e 'for'
 
 # the command's description
 echo "description here"
