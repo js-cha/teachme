@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "mv about-us.txt /home/my-projects"
+echo "This command will move the file (about-us.txt) to the directory /home/my-projects."
 
 # example 2
-echo "test something"
-echo description here
+echo "mv file.txt life.txt"
+echo "Using the mv command like this will rename a file called file.txt in the current directory to life.txt. "
 
 
 exit 0
