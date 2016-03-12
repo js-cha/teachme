@@ -5,7 +5,7 @@ echo "This is the wc command."
 echo -e 'wc'
 
 # the command's description
-echo "description here"
+echo "This command prints the amount of new lines, words and bytes contained within a file. If more than one file is specified, it gives a total count for all the files. The output is similar to a table and counts are always in the following order: newline, word, character, byte, maximum line length. "
 
 echo "------------"
 
