@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git merge command."
+echo "This is the git checkout command."
 
 # The command's name
-echo -e 'merge branch'
+echo -e 'merge checkout'
 
 # the command's description
 echo "description here"
