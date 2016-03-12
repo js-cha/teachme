@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the clear command."
+echo "This is the mkdir command."
 
 # The command's name
-echo -e 'clear'
+echo -e 'mkdir'
 
 # the command's description
 echo "description here"
