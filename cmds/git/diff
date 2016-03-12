@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git checkout command."
+echo "This is the git diff command."
 
 # The command's name
-echo -e 'git checkout'
+echo -e 'git diff'
 
 # the command's description
 echo "description here"
