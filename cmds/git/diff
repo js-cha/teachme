@@ -5,7 +5,7 @@ echo "This is the git diff command."
 echo -e 'git diff'
 
 # the command's description
-echo "description here"
+echo "git diff shows the differences between versions files in a git repository. It can be used to show differences between a file in the working directory (unstaged), the index (staged) and the moost recent commmit. It can also be used to show the differences in files between any two points/commits in your project's history."
 
 echo "------------"
 
