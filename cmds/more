@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "more +5 story.txt"
+echo "Using more, followed by a plus sign (+) and a number instructs the command to begin at the line specified by that number. In this case, the more command will show the contents of the file (story.txt), beginning at line 5. "
 
 # example 2
-echo "test something"
-echo description here
+echo "more -d about_me.txt"
+echo "Using more with the -d option shows additional information on how to navigate through the file contents being viewed. It instructs the user - [Press space to continue, 'q' to quit.]. This can be helpful for users who are unfamiliar with navigating through file content via the terminal."
 
 
 exit 0
