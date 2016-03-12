@@ -11,9 +11,13 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "tar [-] A --catenate --concatenate | c --create | d --diff --compare | 
+    --delete | r --append | t --list | --test-label | u --update | 
+    x --extract --get [options] [pathname ...]"
+echo "tar -xf file.tar -C ./backup"
+echo -e "\t-x: x is one of the function letter that tells the tar command how to behave. x makes the command do an extract."
+echo -e "\tf: f is one of the options of the tar command. It tells tar to perform the function specified by the preceding letter a named file - in our case file.tar"
+echo -e "\t-C: this is another option that tell the tar command to change to the specified directory before executing the preceding commands."
 #   ...      etc
 
 echo "------------"
