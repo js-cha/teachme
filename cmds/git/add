@@ -11,9 +11,13 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "ALL OPTIONS: git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+    [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
+    [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing]
+    [--] [<pathspec>…​]"
+echo "EXAMPLE OPTIONS: git add --all -v"
+echo -e "\t--all: this tell git to add all changes to the staging area."
+echo -e "\t-v: This tells git to show informational messages about all the changes being added to the staging area."
 #   ...      etc
 
 echo "------------"
