@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the tar command."
+echo "This is the curl command."
 
 # The command's name
-echo -e 'tar'
+echo -e 'curl'
 
 # the command's description
 echo "description here"
