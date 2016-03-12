@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git rm file.txt"
+echo "This command removes the file named file.txt from the index.
 
 # example 2
-echo "git test something"
-echo description here
+echo "git rm Documentation/\*.txt"
+echo "This command removes all *.txt files from the index that are under the Documentation directory and any of its subdirectories."
 
 
 exit 0
