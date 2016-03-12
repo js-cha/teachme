@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the rmdir command."
+echo "This is the man command."
 
 # The command's name
-echo -e 'rmdir'
+echo -e 'man'
 
 # the command's description
 echo "description here"
