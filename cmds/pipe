@@ -5,7 +5,7 @@ echo "This is the pipe command."
 echo -e 'pipe'
 
 # the command's description
-echo "description here"
+echo "Pipe in linux is denoted by the symbol | and is used for communication between commands and processes. The pipe is similar to redirection and it allows the output of one program to be sent to another program for further processing. This pipe, or chain of two or more commands allows for the computation of some highly specilzed tasks that none of the individual programs that are a part of pipe could perform themselves."
 
 echo "------------"
 
