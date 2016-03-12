@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git commit command."
+echo "This is the git add command."
 
 # The command's name
-echo -e 'git commit'
+echo -e 'git add'
 
 # the command's description
 echo "description here"
