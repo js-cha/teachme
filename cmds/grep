@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the find command."
+echo "This is the grep command."
 
 # The command's name
-echo -e 'find'
+echo -e 'grep'
 
 # the command's description
 echo "description here"
