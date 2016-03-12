@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git pull command."
+echo "This is the git push command."
 
 # The command's name
-echo -e 'git pull'
+echo -e 'git push'
 
 # the command's description
 echo "description here"
