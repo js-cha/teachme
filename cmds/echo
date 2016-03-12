@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "echo Hello World"
+echo "This command will print the string 'Hello World' to the terminal."
 
 # example 2
-echo "test something"
-echo description here
+echo "echo -e We'd love to \n run around the yard."
+echo "Using -e allows us to interpret the \n as a new line.This will output everything before the \n on the first line and everything after the \n on the second line. "
 
 
 exit 0
