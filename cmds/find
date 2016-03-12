@@ -5,7 +5,7 @@ echo "This is the find command."
 echo -e 'find'
 
 # the command's description
-echo "description here"
+echo "The find command is used to search for files and directories via the command line. It can be used to find files based on search criteria like name, ownership, date/time, size and much more. This command can also be used in conjunction with other commands to perform operations on the files that match the search results."
 
 echo "------------"
 
