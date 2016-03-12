@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the pipe command."
+echo "This is the ping command."
 
 # The command's name
-echo -e 'pipe'
+echo -e 'ping'
 
 # the command's description
 echo "description here"
