@@ -5,7 +5,7 @@ echo "This is the exit command."
 echo -e 'exit'
 
 # the command's description
-echo "description here"
+echo "The exit command causes the terminal of a process. If the exit command is used at the shell prompt, the shell will be closed. It can also be used in bash scripts to end the currently running process and return an error code."
 
 echo "------------"
 
