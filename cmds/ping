@@ -11,9 +11,11 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "ping [ -LRUbdfnqrvVaAB] [ -c count] [ -i interval] [ -l preload] [ -p pattern] [ -s packetsize] [ -t ttl] [ -w deadline] [ -F flowlabel] [ -I interface] [ -M hint] [ -Q tos] [ -S sndbuf] [ -T timestamp option] [ -W timeout] [ hop ...] destination
+"
+echo "ping i <NUM> <address>"
+echo -e "\ti: this option determines the interval between pings set by <NUM>. If NUM was 5 then the ping would be executed once every 5 seconds."
+echo -e "\t<address>: This is the network location that we would like to ping. eg. http://google.com"
 #   ...      etc
 
 echo "------------"
