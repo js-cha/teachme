@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "curl -o index.html study.moderndeveloper.com"
+echo "Using curl with the -o flag allows us to save the contents of the web page at study.moderndeveloper.com to the file named index.html."
 
 # example 2
-echo "test something"
-echo description here
+echo "curl -L study.moderndeveloper.com"
+echo "By default, curl doesn't process redirects. This means that if a page is moved, the curl command will not be able to access its new location. Using the -L flag, the curl command can follow the HTTP Location headers and redirects to the new location where the web page is stored. "
 
 
 exit 0
