@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the cp command."
+echo "This is the tar command."
 
 # The command's name
-echo -e 'cp'
+echo -e 'tar'
 
 # the command's description
 echo "description here"
