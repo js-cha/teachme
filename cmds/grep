@@ -11,9 +11,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "grep [OPTIONS] PATTERN [FILE...]"
+echo "grep [-m NUM] ['word'] file.txt"
+echo -e "\t-m NUM: This option tells the grep command to stop reading the file (file.txt) after NUM lines containing the pattern being searched for are found."
+echo -e "\t'word': This is the pattern that the grep command is searching for within file.txt."
 #   ...      etc
 
 echo "------------"
