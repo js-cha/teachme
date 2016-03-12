@@ -5,7 +5,8 @@ echo "This is the git init command."
 echo -e 'git init'
 
 # the command's description
-echo "description here"
+echo "This command creates an empty Git repository. This means that it creates a new folder in your directory name '.git' and addes all the files and subfolders needed to begin tracking any changes that were made. 
+This command can also be used to to move an existing repository to another location."
 
 echo "------------"
 
