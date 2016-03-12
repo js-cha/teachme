@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the variables command."
+echo "This is the while command."
 
 # The command's name
-echo -e 'variables'
+echo -e 'while'
 
 # the command's description
 echo "description here"
