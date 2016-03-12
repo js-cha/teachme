@@ -5,7 +5,7 @@ echo "This is the mkdir command."
 echo -e 'mkdir'
 
 # the command's description
-echo "description here"
+echo "This command is short for [make directory] and is used to create new folders or directories via the command line, if they do not already exist. If the directory already exists, an error message is shown. The mkdir command can also be used to create multiple directories at once."
 
 echo "------------"
 
