@@ -21,7 +21,7 @@ echo "------------"
 # the command's usage examples
 # example 1
 echo "curl -o index.html study.moderndeveloper.com"
-echo "Using curl with the -o flag allows us to save the contents of the web page at study.moderndeveloper.com to the file named index.html."
+echo "Using curl with the -o flag allows the user to save the contents of the web page at study.moderndeveloper.com to the file named index.html."
 
 # example 2
 echo "curl -L study.moderndeveloper.com"
