@@ -2,7 +2,7 @@
 echo "This is the git checkout command."
 
 # The command's name
-echo -e 'merge checkout'
+echo -e 'git checkout'
 
 # the command's description
 echo "description here"
