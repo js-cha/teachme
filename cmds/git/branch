@@ -5,7 +5,7 @@ echo "This is the git branch command."
 echo -e 'git branch'
 
 # the command's description
-echo "description here"
+echo "This command allows you to create, list or delete branches in git. Branching allows you manage many parts of your project in one repository and merge them together. When used correctly branching makes it easy for multiple developers to work on a project in a seamless and un-intrusive way. "
 
 echo "------------"
 
