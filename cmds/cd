@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "cd home"
+echo "Assume that the current direcotry is the root directory of the filesystem denoted by `/`. To navigate to the home directory which is one level down from the root directory the above command can be used."
 
 # example 2
-echo "test something"
-echo description here
+echo "cd home/Pictures"
+echo "It is possible to access any directory on the filesystem by typing the `cd` command, followed by the full path to the desired folder. To go straight to the `Pictures` directory from the root directory (`/`) the above command can be used."
 
 
 exit 0
