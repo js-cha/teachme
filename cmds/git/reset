@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is the git rebase command."
+echo "This is the git reset command."
 
 # The command's name
-echo -e 'git rebase'
+echo -e 'git reset'
 
 # the command's description
 echo "description here"
