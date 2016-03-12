@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git checkout development"
+echo "This command will switch the current branch you are working on the a branch named development (if a branch named development exists)."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git checkout -b dev"
+echo "This command will create a branch called dev and changes the current branch being worked on the the dev branch."
 
 
 exit 0
