@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "rmdir [-p] [-v] path/to/directory"
+echo -e "\t-p: This option removes the 'directory' folder as well as its parent folders ('path' and 'to') once the 'directory' folder is empty."
+echo -e "\t-v: This option removes the 'directory' folder once it is empty and also shows a message while executing the command. The message looks something like this: removing directory, ‘/path/to/directory’ "
 #   ...      etc
 
 echo "------------"
