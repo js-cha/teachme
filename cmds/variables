@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "VARNAME=VALUE"
+echo -e "\tVARNAME: the name of the variable being defined for eay reference."
+echo -e "\tVALUE: the value of the variable being defined. This value can be of different types - string, integer, boolean, array."
 #   ...      etc
 
 echo "------------"
