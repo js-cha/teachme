@@ -5,7 +5,7 @@ echo "This is the git push command."
 echo -e 'git push'
 
 # the command's description
-echo "description here"
+echo "This command allows you to upload your changes to a centralized location or remote server. It takes two arguments which are the remote name and the branch name. This command can also be configured to push all or some of the changes made on the local repostory to the remote server. "
 
 echo "------------"
 
