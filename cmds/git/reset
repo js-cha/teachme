@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git reset --soft HEAD^"
+echo "This example will undo the last commit made by a user. The --soft option here ensures that the files remain untouched, only the commit is undone. A good time to use this command would be when there is a spelling error in the commit message."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git reset HEAD test.md"
+echo "This example removes test.md from the staging area."
 
 
 exit 0
