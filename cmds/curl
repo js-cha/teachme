@@ -5,7 +5,8 @@ echo "This is the curl command."
 echo -e 'curl'
 
 # the command's description
-echo "description here"
+echo "curl is a client to get documents/files from or send documents to a server, using any of the supported protocols (HTTP, HTTPS, FTP, GOPHER, DICT, TELNET, LDAP or FILE). The command is designed to work without user interaction or any kind of interactivity."
+echo "curl offers a busload of useful tricks like proxy support, user authentication, ftp upload, HTTP post, SSL (https:) connections, cookies, file transfer resume and more."
 
 echo "------------"
 
