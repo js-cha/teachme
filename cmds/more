@@ -5,7 +5,7 @@ echo "This is the more command."
 echo -e 'more'
 
 # the command's description
-echo "description here"
+echo "more in a command to review the contents of a text file one screen at a time."
 
 echo "------------"
 
