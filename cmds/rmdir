@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "$ rmdir test1"
+echo "Directory test1 is removed from current path."
 
 # example 2
-echo "test something"
-echo description here
+echo "$ rmdir -p dir1/dir2/dir3"
+echo "Delete nested directories dir1/dir2/dir3"
 
 
 exit 0
