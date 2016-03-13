@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git fetch origin"
+echo "This command will copy all new branches and tags from the remote server (origin) and store them in your local repository."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git fetch origin +lists:references maint:compatiblity"
+echo "This command updates or creates the branches references and compatibility in the local repository by fetching from the branches lists and maint respectively."
 
 
 exit 0
