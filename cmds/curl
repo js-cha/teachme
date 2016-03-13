@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "curl [options] <url>"
+echo -e "\t-L: Make curl request the new location of the URL if original location has moved."
+echo -e "\t--http2: Commands curl to issue its requests using HTTP 2."
 #   ...      etc
 
 echo "------------"
