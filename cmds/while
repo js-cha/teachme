@@ -5,7 +5,7 @@ echo "This is the while command."
 echo -e 'while'
 
 # the command's description
-echo "description here"
+echo "The while loop is a construct that allows for repetitive execution of commands as long as the condition controlling the while loop is not met. An example of a condition may be to continue executing the instructions while a variable is less than 10. It is important that the condition controlling the while loop be met eventually, to avoid the situation where the while loop never stops until the machine runs out of memory."
 
 echo "------------"
 
