@@ -11,9 +11,14 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]
+	[<upstream> [<branch>]]
+git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]
+	--root [<branch>]
+git rebase --continue | --skip | --abort | --edit-todo"
+echo "git rebase -i <base>"
+echo -e "\t: This option begins an interactive rebasing session that allows the user to alter individual commits during the process."
+echo -e "\t<base>: Any kind of commit reference (an ID, a branch name, a tag, or a relative reference to HEAD) that the user would like to rebase onto. "
 #   ...      etc
 
 echo "------------"
