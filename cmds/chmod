@@ -11,9 +11,13 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "chmod [OPTION]... MODE[,MODE]... FILE...
+       chmod [OPTION]... OCTAL-MODE FILE...
+       chmod [OPTION]... --reference=RFILE FILE..."
+echo "chmod <user/group>+<permission> <file>"
+echo -e "\t<user/group> : this option states which users or groups are receiving the permissions"
+echo -e "\t<permission>: these are the permissions themselves and they are represented by letters r,w,x (read, write, execute)"
+echo -e "\t<file>: this is the file that we are defining permissions on."
 #   ...      etc
 
 echo "------------"
