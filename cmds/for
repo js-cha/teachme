@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "for [condition] do ... done"
+echo -e "\t[condition] - this is the condition that must be met for the loop to continue. An example of a condition will be to perform the loop until a varible equals 5 with the variable starting at 1 and being incremented by 1 with every loop."
+echo -e "\t[...] - this is the action the user would like to perform with each loop."
 #   ...      etc
 
 echo "------------"
