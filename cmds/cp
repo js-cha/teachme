@@ -5,7 +5,7 @@ echo "This is the cp command."
 echo -e 'cp'
 
 # the command's description
-echo "description here"
+echo "cp (copy) is a command to copy files or directories."
 
 echo "------------"
 
