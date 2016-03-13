@@ -20,12 +20,13 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "$ touch test1.txt"
+echo "If test1.txt exists, updates file's access and modification times to the current time."
+echo "If file.txt doesn't exist, create a new, empty txt file."
 
 # example 2
-echo "test something"
-echo description here
+echo "$ touch -a test1.txt"
+echo "Only change the access time for the test1.txt file."
 
 
 exit 0
