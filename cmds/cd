@@ -7,7 +7,7 @@ echo -e 'cd'
 # the command's description
 echo "description here"
 
-echo "------------"
+echo "CD (Change directory) is a command-line OS shell command used to change the current working directory."
 
 # the command's syntax
 echo "Syntax:"
