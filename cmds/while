@@ -20,12 +20,26 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "
+i="0"
+while [ $i -lt 4 ]
+do
+echo $i
+i=$[$i+1]
+done"
+
+echo "This example will print the numbers 0,1,2,3,4 to the screen."
 
 # example 2
-echo "test something"
-echo description here
+echo "
+i="10"
+while [ $i -gt 3 ]
+do
+echo $i
+i=$[$i-1]
+done"
+
+echo "This example will print the numbers 10,9,8,7,6,5,4 to the screen."
 
 
 exit 0
