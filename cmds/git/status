@@ -20,12 +20,18 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git status -s"
+echo "This example shows the results of the git status command in short format. Normally when we view changes we see a message saying
+
+	modified: .....
+
+The -s flag shortens the messaged to say
+
+	M: ......"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git status -b"
+echo "This example shows the results of the git status command however it also shows the branch on which changes were made."
 
 
 exit 0
