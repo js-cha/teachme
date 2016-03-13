@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ wc [OPTION]... [FILE]..."
+echo -e "\$ wc -c: print the byte counts."
+echo -e "\$ wc -m: print the character counts."
 #   ...      etc
 
 echo "------------"
