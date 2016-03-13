@@ -11,9 +11,18 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "ALL OPTIONS: sudo -h | -K | -k | -V
+     sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+     sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+          [command]
+     sudo [-AbEHnPS] [-C num] [-g group] [-h host] [-p prompt] [-r role]
+          [-t type] [-u user] [VAR=value] [-i | -s] [command]
+     sudoedit [-AknS] [-C num] [-g group] [-h host] [-p prompt] [-u user] file
+          ...
+"
+echo "EXAMPLE OPTIONS: sudo -u <username> <command>"
+echo -e "\t-u <username>: specifies the user that should be used to execute this command."
+echo -e "\t<command>: the command that should be executed."
 #   ...      etc
 
 echo "------------"
