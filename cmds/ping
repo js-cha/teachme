@@ -19,13 +19,19 @@ echo -e "\targument2: description of argument 2"
 echo "------------"
 
 # the command's usage examples
-# example 1
-echo "test"
-echo description here
-
-# example 2
-echo "test something"
-echo description here
+#example 1
+echo "$ ping google.com"
+echo "PING google.com (172.217.2.14): 56 data bytes"
+echo "64 bytes from 172.217.2.14: icmp_seq=0 ttl=57 time=16.856 ms"
+echo "..."
+#example 2
+echo "$ ping -c 2 google.com"
+echo "PING google.com (172.217.2.14): 56 data bytes"
+echo "64 bytes from 172.217.2.14: icmp_seq=0 ttl=57 time=17.605 ms"
+echo "64 bytes from 172.217.2.14: icmp_seq=1 ttl=57 time=20.568 ms"
+echo "--- google.com ping statistics ---"
+echo "2 packets transmitted, 2 packets received, 0.0% packet loss"
+echo "round-trip min/avg/max/stddev = 17.605/19.087/20.568/1.482 ms"
 
 
 exit 0
