@@ -5,7 +5,7 @@ echo "This is the git status command."
 echo -e 'git status'
 
 # the command's description
-echo "description here"
+echo "The git status command displays the state of the working directory and the staging area. It displays changes which have been staged, which haven’t, and which files aren’t being tracked by Git. "
 
 echo "------------"
 
