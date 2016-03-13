@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "touch [-d] [-a] FILE..."
+echo -e "\t-d: This option along with a date argument sets the last accessed time of the file created to the date given. It also sets this date value as the last time the file was modified."
+echo -e "\t-a: This option along with a date argument sets the last accessed time of the file created to the date given."
 #   ...      etc
 
 echo "------------"
