@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "$ touch test1.txt"
+echo "Create a txt format file 'test1'(or change the accessed time to current)"
 
 # example 2
-echo "test something"
-echo description here
+echo "# touch -m test2.txt"
+echo "Only change the modification time of test2.txt file to current."
 
 
 exit 0
