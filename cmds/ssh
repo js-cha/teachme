@@ -5,7 +5,7 @@ echo "This is the ssh command."
 echo -e 'ssh'
 
 # the command's description
-echo "description here"
+echo "SSH stands for Secure Shell and is a protocol that is used to log onto remote systems and for executing commands on those systems. All the data passed back and forth using the SSH protocol is encrypted, so the user doesn't have to worry about others getting hold of their valuable information."
 
 echo "------------"
 
