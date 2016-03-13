@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "num=1"
+echo "The example defines a variable called num and sets its value to 1."
 
 # example 2
-echo "test something"
-echo description here
+echo "fruits=("apples", "bananas")"
+echo "This example creates a variable name fruits and sets its value to be an array with two items - apples and bananas."
 
 
 exit 0
