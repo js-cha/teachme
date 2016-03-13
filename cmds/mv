@@ -5,7 +5,7 @@ echo "This is the mv command."
 echo -e 'mv'
 
 # the command's description
-echo "description here"
+echo "mv (Move) is a command to move one or more files or directories from one directory to another directory. It can also rename files or directories."
 
 echo "------------"
 
