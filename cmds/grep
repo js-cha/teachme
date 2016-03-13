@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "$ grep -w "test" test1.txt"
+echo "Search the file test1.txt for lines containing the word "test"."
 
 # example 2
-echo "test something"
-echo description here
+echo "$ grep -cw "test" test1.txt"
+echo "Displays a count of how many lines in test1.txt contains "test"."
 
 
 exit 0
