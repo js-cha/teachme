@@ -21,6 +21,7 @@ echo -e "\t-P: This option displays ALL the links to the present directory locat
 echo "------------"
 
 # the command's usage examples
+echo "pwd Examples"
 # example 1
 echo "To print current working directory"
 echo "$ pwd" 
