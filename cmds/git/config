@@ -5,7 +5,7 @@ echo "This is the git config command."
 echo -e 'git config'
 
 # the command's description
-echo "description here"
+echo "This command allows you to view and set options for a repository or the global git environment. The configuration options recognized by Git fall into two categories: client-side and server-side. The majority of the options are client-side – configuring a user's personal working preferences."
 
 echo "------------"
 
