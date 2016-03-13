@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ command 1 | command 2"
+echo -e "\$ ls -al | more :Create a long list of files and piping the output into the Linux more command."
+echo -e "\$ lps aux | wc -l :Display how many processes are currently running on your system."
 #   ...      etc
 
 echo "------------"
