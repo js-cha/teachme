@@ -5,7 +5,7 @@ echo "This is the mkdir command."
 echo -e 'mkdir'
 
 # the command's description
-echo "description here"
+echo "mkdir (make directory) is a command to create new directories."
 
 echo "------------"
 
