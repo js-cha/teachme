@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ find [pathnames] [conditions]"
+echo -e "\$ find -name "text1.txt": Find text1.txt file"
+echo -e "\$find -maxdepth 2 -name "text1.txt": Find text1.txt file in the current directory and one level down to the current directory."
 #   ...      etc
 
 echo "------------"
