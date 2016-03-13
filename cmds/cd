@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "cd path/to/directory"
+echo -e "\tcd ../<directory_name>: traverse one level down the current directory to the specified path"
+echo -e "\tcd ~/<directory_name>: change directory using an absolute path"
 #   ...      etc
 
 echo "------------"
@@ -21,7 +21,7 @@ echo "------------"
 # the command's usage examples
 # example 1
 echo "cd home"
-echo "Assume that the current direcotry is the root directory of the filesystem denoted by `/`. To navigate to the home directory which is one level down from the root directory the above command can be used."
+echo "Assume that the current directory is the root directory of the filesystem denoted by `/`. To navigate to the home directory (which is one level down from the root directory), the above command can be used."
 
 # example 2
 echo "cd home/Pictures"
