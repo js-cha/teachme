@@ -5,7 +5,7 @@ echo "This is the alias command."
 echo -e 'alias'
 
 # the command's description
-echo "description here"
+echo "The alias command instructs the shell to replace one string with another when executing instructions. It allows users to specify their preferred  term for executing a command and allows for advanced and commonly used instructions to be defined. Aliases only persist for the current session however they can be saved in the shell's .rc file for continuous use. "
 
 echo "------------"
 
