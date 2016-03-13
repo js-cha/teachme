@@ -29,12 +29,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "sudo -v"
+echo "This command extends the time that sudo is active allowing the user to perform sudo commands without entering a password every time. "
 
 # example 2
-echo "test something"
-echo description here
+echo "sudo -u imanuel ls /home/projects"
+echo "This example is saying to execute the ls command in the directory home/projects as the user imanuel."
 
 
 exit 0
