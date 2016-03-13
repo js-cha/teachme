@@ -5,7 +5,7 @@ echo "This is the touch command."
 echo -e 'touch'
 
 # the command's description
-echo "description here"
+echo "the touch command is a common command to quickly create text files. Additionally it is used to change the timestamps of a file such as last modification time or access time. "
 
 echo "------------"
 
