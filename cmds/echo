@@ -5,7 +5,7 @@ echo "This is the echo command."
 echo -e 'echo'
 
 # the command's description
-echo "description here"
+echo "echo is a command to display a string on the terminal."
 
 echo "------------"
 
