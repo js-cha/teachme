@@ -5,7 +5,7 @@ echo "This is the man command."
 echo -e 'man'
 
 # the command's description
-echo "description here"
+echo "'man' is the interface used to view the system's reference manuals. Use can retrieve the information and display it as text output on your screen."
 
 echo "------------"
 
