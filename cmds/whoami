@@ -20,12 +20,11 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "whoami Examples"
+echo "$ whoami"
+echo "Neverland"
+echo "Display current User name"
 
-# example 2
-echo "test something"
-echo description here
 
 
 exit 0
