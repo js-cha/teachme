@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "$ tar cf archive.tar text1.txt text2.txt"
+echo "create an archive.tar file for text1.txt and text2.txt file"
 
-# example 2
-echo "test something"
-echo description here
+#example 2
+echo "$ tar -xvzf archive.tar"
+echo "Extract archive.tar file"
 
 
 exit 0
