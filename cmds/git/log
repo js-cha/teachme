@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git log --no-merges -n <NUMBER>"
+echo -e "\t--no-merges: shows the history of changes excluding any merges that occured."
+echo -e "\t-n <NUMBER>: only shows the most recent number of changes specified by <NUMBER>."
 #   ...      etc
 
 echo "------------"
