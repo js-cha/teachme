@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ mkdir [option] directory_name(s)"
+echo -e "\$ mkdir -p food/fruit/citrus/oranges: Creates the intermediate directories for a new directory if parent directories are not exist."
+echo -e "\$ mkdir dir_1 dir_2 dir_3: Creates three directories under current directory."
 #   ...      etc
 
 echo "------------"
