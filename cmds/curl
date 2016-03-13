@@ -7,7 +7,7 @@ echo -e 'curl'
 # the command's description
 echo "description here"
 
-echo "------------"
+echo "curl is a command to transfer data from or to a server."
 
 # the command's syntax
 echo "Syntax:"
