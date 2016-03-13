@@ -5,7 +5,7 @@ echo "This is the chmod command."
 echo -e 'chmod'
 
 # the command's description
-echo "description here"
+echo "This command stands for [change mode] and changes the permissions on files and folder for various users of the system. This means that it allows you to set the rules for each file/folder and this determines who can access it and how it can be accessed."
 
 echo "------------"
 
