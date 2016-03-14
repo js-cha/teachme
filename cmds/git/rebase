@@ -25,12 +25,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "$ git rebase -i <base>"
+echo "Rebase to current branch by using an interactive rebasing session."
 
 # example 2
-echo "git test something"
-echo description here
+echo "$ git rebase --abort"
+echo "Undo the git rebase"
 
 
 exit 0
