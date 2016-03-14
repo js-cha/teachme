@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ git config [<file-option>] [type] --add name value"
+echo -e "$ git config --unset-all test: Remove all lines matching the key 'test' from config file."
+echo -e "$ git config --get test: Get the value for a given key 'test'"
 #   ...      etc
 
 echo "------------"
