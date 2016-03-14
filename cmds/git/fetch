@@ -5,7 +5,7 @@ echo "This is the git fetch command."
 echo -e 'git fetch'
 
 # the command's description
-echo "description here"
+echo "Fetch and download branches from another repository."
 
 echo "------------"
 
