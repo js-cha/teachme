@@ -26,12 +26,14 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "$ git commit -m 'text1updates'"
+echo "[master 68aa034] text1updates"
+echo "1 files changed, 2 insertions(+), 1 deletions(-)"
+echo "commit text1updates and use -m to get commit messages"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git commit -a"
+echo "Commit a snapshot of all changes in the working directory"
 
 
 exit 0
