@@ -11,9 +11,14 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ git push [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-run] [--receive-pack=<git-receive-pack>]
+	   [--repo=<repository>] [-f | --force] [--prune] [-v | --verbose]
+	   [-u | --set-upstream]
+	   [--[no-]signed|--sign=(true|false|if-asked)]
+	   [--force-with-lease[=<refname>[:<expect>]]]
+	   [--no-verify] [<repository> [<refspec>…​]]"
+echo -e "\$ git push --all: Push all branches"
+echo -e "\$ git push -q: Suppress all push output and reports"
 #   ...      etc
 
 echo "------------"
