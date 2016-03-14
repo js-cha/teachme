@@ -7,7 +7,7 @@ echo -e 'git checkout'
 # the command's description
 echo "description here"
 
-echo "------------"
+echo "git checkout is a command to update files in the working tree to match the version in the index or the specified tree. "
 
 # the command's syntax
 echo "Syntax:"
