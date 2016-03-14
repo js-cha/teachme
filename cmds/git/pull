@@ -5,7 +5,7 @@ echo "This is the git pull command."
 echo -e 'git pull'
 
 # the command's description
-echo "description here"
+echo "Incorporates code changes from a local repository into the current branch. "
 
 echo "------------"
 
