@@ -25,12 +25,14 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "$ git merge ab123"
+echo "index.html |    1 +"
+echo "1 file changed, 1 insertion(+)"
+echo "merge ab123 branch into master."
 
 # example 2
-echo "git test something"
-echo description here
+echo "$ git merge -s ours text1"
+echo "Use 'ours' strategy to merge branch obsolete into the current branch."
 
 
 exit 0
