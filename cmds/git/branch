@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git branch -d experiment"
+echo "Deletes the branch named experiment"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git branch -a"
+echo "List all branches on local and remote repository"
 
 
 exit 0
