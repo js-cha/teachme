@@ -20,12 +20,16 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "$ git log --all"
+echo "commit c8183c1d00f5b413c884b80d9aecfc07815a643d"
+echo "Author: tester <tester@gmail.com>"
+echo "Date:   Thu Feb 11 14:13:11 2016 -0500"
+echo "   update 1"
+echo "Display all commits"
 
 # example 2
-echo "git test something"
-echo description here
+echo "$ git log --after "2015-02-01" --before "2015-03-02""
+echo "Filter commits by the date range"
 
 
 exit 0
