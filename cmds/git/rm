@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git rm [options] <file>"
+echo -e "\t-n: Performs a dry-run; does not actually the delete the file."
+echo -e "\t-r: Recursively remove contents if a directory is specified."
 #   ...      etc
 
 echo "------------"
