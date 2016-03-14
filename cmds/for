@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "$ for NUM in `seq 1 1 1000`; do touch $NUM-file.txt; done"
+echo "create 1,000 files in a numbered order"
 
 # example 2
-echo "test something"
-echo description here
+echo "for i in {1..100}; do echo http://www.example.com/${i}.jpg; done"
+echo "present 100 imagelinks from 1.jpg to 100.jpg on http://www.example.com website"
 
 
 exit 0
