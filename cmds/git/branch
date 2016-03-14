@@ -11,21 +11,32 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git branch [--color[=<when>] | --no-color] [-r | -a]
+	[--list] [-v [--abbrev=<length> | --no-abbrev]]
+	[--column[=<options>] | --no-column]
+	[(--merged | --no-merged | --contains) [<commit>]] [--sort=<key>]
+	[--points-at <object>] [<pattern>…​]"
+echo "git branch [--set-upstream | --track | --no-track] [-l] [-f] <branchname> [<start-point>]"
+echo "git branch (--set-upstream-to=<upstream> | -u <upstream>) [<branchname>]"
+echo "git branch --unset-upstream [<branchname>]"
+echo "git branch (-m | -M) [<oldbranch>] <newbranch>"
+echo "git branch (-d | -D) [-r] <branchname>…​"
+echo "git branch --edit-description [<branchname>]"
+
+echo -e "\git branch -d: Delete a branch"
+echo -e "\git brancd -m: Move or rename a branch"
 #   ...      etc
 
 echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git branch -d experiment"
-echo "Deletes the branch named experiment"
+echo "git test"
+echo description here
 
 # example 2
-echo "git branch -a"
-echo "List all branches on local and remote repository"
+echo "git test something"
+echo description here
 
 
 exit 0
