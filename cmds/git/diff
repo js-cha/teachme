@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ git diff [options] [<commit>] [--] [<path>…​]"
+echo -e "\$ git diff --name-only: Show only names of changed files."
+echo -e "\$ git diff --no-color:  Override configuration to turn off color settings"
 #   ...      etc
 
 echo "------------"
