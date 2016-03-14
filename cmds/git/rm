@@ -5,15 +5,15 @@ echo "This is the git rm command."
 echo -e 'git rm'
 
 # the command's description
-echo "description here"
+echo "Remove files from the working tree and from the index. This command will only remove a file from your local working directory."
 
 echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git rm [options] <file>"
-echo -e "\t-n: Performs a dry-run; does not actually the delete the file."
-echo -e "\t-r: Recursively remove contents if a directory is specified."
+echo "git test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
 #   ...      etc
 
 echo "------------"
