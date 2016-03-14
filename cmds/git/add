@@ -5,7 +5,7 @@ echo "This is the git add command."
 echo -e 'git add'
 
 # the command's description
-echo "description here"
+echo "The Git add command takes all of the content changes in the working tree and adds them to the index for committing. Git add is used to add new untracked files and modified files to index."
 
 echo "------------"
 
