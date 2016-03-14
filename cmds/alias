@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ alias [-p] [name="value"]"
+echo -e "\alias ll='ls -l': use 'll' as a shortcut for 'ls -l'command"
+echo -e "\alias p="pwd"; l="ls -al": use as 'p' a shortcut for two commands"
 #   ...      etc
 
 echo "------------"
