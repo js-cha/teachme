@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "chmod u=rw test.txt"
+echo "Change owner's permissions to read and write the test.txt file."
 
 # example 2
-echo "test something"
-echo description here
+echo "chmod 666 test.txt"
+echo "Set the permission of test.txt to "read and write by everyone."."
 
 
 exit 0
