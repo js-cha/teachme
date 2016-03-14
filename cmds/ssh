@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "$ ssh [-1246AaCfgKkMNnqsTtVvXxYy]"
+echo -e "$ ssh -6: Forces ssh to use IPv6 addresses only."
+echo -e "\$ ssh -f: Requests ssh to go to background just before command execution."
 #   ...      etc
 
 echo "------------"
