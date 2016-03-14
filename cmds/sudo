@@ -5,7 +5,7 @@ echo "This is the sudo command."
 echo -e 'sudo'
 
 # the command's description
-echo "description here"
+echo "sudo (superuser do) allows a permitted user to execute a command as the superuser. It prompts you for your personal password and confirms your request to execute a command."
 
 echo "------------"
 
